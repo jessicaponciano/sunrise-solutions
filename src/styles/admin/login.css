@@ -1,0 +1,19 @@
+.login { display: flex; height: 100%; width: 100%; align-items: center; justify-content: flex-end; background-color: #005655;
+        background-image: url(https://blog.bluesol.com.br/wp-content/uploads/2017/06/painel-solar_cria%C3%A7%C3%A3o-e-hist%C3%B3ria.jpg); 
+        background-repeat: no-repeat; background-position: center; background-size: cover; background-blend-mode: soft-light;
+
+         form { display: flex; flex-direction: column; height: 100%; width: 590px; background-color: white; align-items: center; justify-content: center; 
+            margin-right: 30px; box-shadow: 4px 4px 10px #000000c9;
+            svg.injected-svg { margin-bottom: 85px; }
+            input { width: 286px; height: 35px; max-width: calc(100% - 50px); background: #F4F4F4; border-radius: 4px; border: none; margin-bottom: 12px; padding: 0 15px; }
+            input:placeholder { font-family: Poppins; font-weight: normal; font-size: 14px; display: flex; align-items: center; color: #A9A9A9; padding: 0 15px; }
+            button {  width: 316px; height: 38px; background: #FFE600;  border-radius: 7px; display: flex; align-items: center; justify-content: center; margin-top: 28px;
+                font-family: Poppins; font-weight: 500; font-size: 14px; display: flex; align-items: center; color: #000; border: none; max-width: calc(100% - 20px);
+            }
+            .recover { text-align: center; margin-top: 25px; font-family: Poppins; font-weight: 500; font-size: 14px; }
+        }
+}
+
+@media only screen and (max-width: 650px) {
+    .login form { max-width: 100%; width: 100%; margin: 0 auto; background-color: #ffffffa3;}
+}
